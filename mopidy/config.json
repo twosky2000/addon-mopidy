@@ -19,12 +19,16 @@
   "ports": {
     "6600/tcp": 6600,
     "5555/udp": 5555,
-    "80/tcp": null
+    "80/tcp": null,
+    "1704/tcp": null,
+    "1705/tcp": null
   },
   "ports_description": {
     "6600/tcp": "Mopidy",
     "5555/udp": "Autoaudiosink",
-    "80/tcp": "Web interface (Not required for Ingress)"
+    "80/tcp": "Web interface (Not required for Ingress)",
+    "1704/tcp": "Snapcast Port",
+    "1705/tcp": "Snapcast Remote"
   },
   "map": ["config", "share:rw", "ssl"],
   "options": {
